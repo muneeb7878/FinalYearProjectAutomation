@@ -1,0 +1,115 @@
+/* custom scroll bar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fff;
+    transition: 0.4s linear;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #a5a5a5;
+    border-radius: 50px;
+    transition: 0.3 all;
+}
+
+i {
+    cursor: pointer;
+}
+
+
+/* login Page CSS */
+
+.login-form label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.passwordField i {
+    color: #111;
+    font-size: 20px;
+    float: right;
+    margin-right: 12px;
+    margin-top: -28px;
+    cursor: pointer;
+}
+
+
+/* Admin page CSS */
+
+.display-pic {
+    display: inline-block;
+    background-color: #111;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+.options-icon {
+    position: absolute;
+    right: 75px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.createCommittee {
+    display: none;
+}
+
+.buttons input {
+    width: 210px;
+    margin-bottom: 15px;
+}
+
+
+/* Committe Details page CSS */
+
+.dropdownIcon {
+    position: absolute;
+    right: 75px;
+}
+
+
+/* Request page CSS */
+
+.dp-request {
+    position: relative;
+    left: 25%;
+    display: block;
+    background-color: #111;
+    width: 120px;
+    height: 120px;
+    border-radius: 80px;
+}
+
+
+/* Feed page CSS */
+
+#post {
+    display: none;
+}
+
+.createPost {
+    height: auto;
+}
+
+.createPost::-webkit-scrollbar {
+    display: none;
+}
+
+.feed-dp {
+    background-color: #111;
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+}
+
+
+/* Send Request page CSS */
+
+.reqBtn {
+    position: absolute;
+    right: 75px;
+}
